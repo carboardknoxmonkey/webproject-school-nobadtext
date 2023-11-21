@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nathan's stuff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="title">
+    <a href="index.html"><img src="Site title.png" height="82px"><br></a>
+    <a href="dndindex.html">Dungeon's and Dragon's 3.5e books </a><a href="shrek2.html">Shrek 2 DVD (legal) </a><a href="dicebox.html">Dice Box </a><a href="ti84ce.html">TI-84PlusCE Calculator with Minesweeper </a><a href="cds.html">Cd Collection </a><a href="tinybible.html">Tiny Bible</a>
+</div>
+
+<div class="mepng">
+
+</div>
+</body>
+</html>

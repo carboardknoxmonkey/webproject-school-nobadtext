@@ -1,0 +1,52 @@
+body {
+    background-color: chocolate;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    background-color: yellow;
+    height: 120px;
+    width: 472px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.mepng {
+    display: inline-block;
+    font-family: cursive;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    height: 361px;
+    width: 480px;
+    
+}
+
+.expand {
+    width: 100px;
+    height: 100px;
+    background: #d86e23;
+    transition: width 80s;
+  }
+  
+.expand:hover {
+    width: 1300px;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nathan's stuff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="title">
+    <a href="index.html"><img src="Site title.png" height="82px"><br></a>
+    <a href="dndindex.html">Dungeon's and Dragon's 3.5e books </a><a href="shrek2.html">Shrek 2 DVD (legal) </a><a href="dicebox.html">Dice Box </a><a href="cds.html">Cd Collection </a><a href="tinybible.html">Tiny Bible</a>
+</div>
+
+<div class="mepng">
+    <img src="dicebox.jpg" style="border-style: outset; border-color: silver; border-width: 10px;">
+    <p>One day I realized that I’ll need more dice for a plan I had to have people over and play dnd. So I bought some dice. Turns out I bought all of the dice I would ever need. Now I have this box full of dice. The box is an old, repurposed cigar box I got from my father. It’s cool and it holds all of them.</p>
+    <button onclick="displayResult()" class="button">Roll a d20</button>
+</div>
+</body>
+
+
+<script>
+    function rollDice() {
+        return Math.floor(Math.random() * 20) + 1;
+    }
+
+    function displayResult() {
+        var randomNumber = rollDice();
+        if (randomNumber === 20) {
+            alert("You rolled a " + randomNumber + ". Critical Hit!");    
+        } else if (randomNumber === 1) {
+            alert("You rolled a " + randomNumber + ". Critical Failure!");    
+        } else {
+            alert("You rolled a " + randomNumber);
+        }
+        
+    }
+</script>
+
+</html>
